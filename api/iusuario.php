@@ -11,4 +11,4 @@ $sql = "insert into usuarios (usunome,usulogin,ususenha) values (?,?,MD5(?));";
 $prp = $pdo->prepare($sql);
 $prp->execute(array($nome,$login,$senha));
 Conexao::desconectar();
-//http://localhost/Projetos_ETEC_PWEB-III_Div2/api/iusuario.php?jsn={"nome":"ENZO APARECIDO","login":"ENZO","senha":"pythonando"}
+//http://localhost/Projetos_ETEC_PWEB-III_Div2/api/iusuario.php?jsn={"nome":"ARTHUR","login":"TUCA","senha":"vaitomando"}
