@@ -15,7 +15,7 @@ select
 from 
     usuarios
 where 
-]   usulogin = ? 
+   usulogin = ? 
 and 
     ususenha = MD5(?);";
 $prp = $pdo->prepare($sql);
